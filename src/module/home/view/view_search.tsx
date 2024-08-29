@@ -46,9 +46,9 @@ export default function ViewSearch() {
           placeholder="Pencarian"
           onChange={(e) => setSearch(e.target.value)}
         />
-        {/* <pre>{JSON.stringify(dataUser, null, 1)}</pre>
+        <pre>{JSON.stringify(dataUser, null, 1)}</pre>
         <pre>{JSON.stringify(dataProject, null, 1)}</pre>
-        <pre>{JSON.stringify(dataDivision, null, 1)}</pre> */}
+        <pre>{JSON.stringify(dataDivision, null, 1)}</pre>
         
       </Box>
     </>
